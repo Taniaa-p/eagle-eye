@@ -1,0 +1,26 @@
+# Environments
+venv/
+venv_arm/
+__pycache__/
+.env
+.antigravityignore
+
+# Mac 
+.DS_Store
+
+# Heavy weights and dependencies
+*.pt
+yolov8n.pt
+
+# Output directories
+runs/
+debug_steps/
+
+# Dataset and config
+dataset/
+*.yaml
+
+# Loose Images
+*.jpg
+*.jpeg
+*.png
